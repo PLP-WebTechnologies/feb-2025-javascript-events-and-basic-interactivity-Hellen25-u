@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Webpage</title>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+<body>
+    <h1>Welcome to My Interactive Page!</h1>
+    
+    <!-- Button that changes text or color -->
+    <button id="changeButton">Click me!</button>
+    
+    <!-- Image gallery with external image links -->
+    <div class="gallery">
+        <img src="https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg" alt="Image 1" class="gallery-item" height="250px" width="250px">
+        <img src="https://images.pexels.com/photos/1133957/pexels-photo-1133957.jpeg" alt="Image 2" class="gallery-item" height="250px" width="250px">
+        <img src="https://images.pexels.com/photos/326212/pexels-photo-326212.jpeg" alt="Image 3" class="gallery-item" height="250px" width="250px">
+    </div>
+
+    <!-- Accordion-style content -->
+    <div class="accordion">
+        <button class="accordion-btn">Section 1</button>
+        <div class="accordion-content">
+            <p>This is a beautiful display of butterflies in nature.</p>
+        </div>
+        <button class="accordion-btn">Section 2</button>
+        <div class="accordion-content">
+            <p>This is displays a humming bird.</p>
+        </div>
+    </div>
+
+    <!-- Form with validation -->
+    <form id="myForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <input type="password" id="password" placeholder="Password (min 8 characters)" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
